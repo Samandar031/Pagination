@@ -1,5 +1,19 @@
 *{
   margin: 0;
   padding: 0;
-  
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
+
+body{
+  background-color: #f3f3f3;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  background-color: #fff;
+}
+
