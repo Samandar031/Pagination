@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/samandarqodirqulov/Pagination/issues"
   },
-  "homepage": "https://github.com/samandarqodirqulov/Pagination#readme"
+  "homepage": "https://github.com/samandarqodirqulov/Pagination#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "parcel": "^2.4.1"
+  }
 }
