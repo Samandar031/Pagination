@@ -29,12 +29,12 @@ let pagenumbers_element = document.getElementById("pagenumbers");
 let current_page = 5;
 let rows = 5;
 
-function Displaylist(items, wrapper, rows_per_page, page) {
+function Displaylist(items, wrapper, rows_page, page) {
   wrapper.innerHTML = "";
   page--;
 
-  let start = rows_per_page * page;
-  let end = start + rows_per_page;
+  let start = rows_page * page;
+  let end = start + rows_page;
 
   let paginationItem = items.slice(start, end);
   console.log(paginationItem);
